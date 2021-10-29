@@ -28,6 +28,7 @@ class ContactForm extends Component {
     const { name, number } = this.state;
     return (
       <form onSubmit={this.handleSubmit} className={styles.form}>
+        {/* <label className={styles.form__label}>Name</label> */}
         <input
           className={styles.form__input}
           type="text"
@@ -39,8 +40,8 @@ class ContactForm extends Component {
           onChange={this.handleChange}
           placeholder="Full name"
         />
-        <label className={styles.form__label}>Name</label>
 
+        {/* <label className={styles.form__label}>Phone number</label> */}
         <input
           className={styles.form__input}
           type="tel"
@@ -50,9 +51,8 @@ class ContactForm extends Component {
           required
           value={number}
           onChange={this.handleChange}
-          placeholder="Number"
+          placeholder="Phone number"
         />
-        <label className={styles.form__label}>Name</label>
 
         <button type="submit" className={styles.btnContact}>
           Add contact

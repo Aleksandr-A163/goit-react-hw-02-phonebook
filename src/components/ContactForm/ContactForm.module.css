@@ -18,8 +18,9 @@
 .form__input {
   font-family: "Roboto", sans-serif;
   color: #333;
+  margin-top: 20px;
   font-size: 1.2rem;
-  padding: 1rem 2rem;
+  padding: 0.5rem 2rem;
   border-radius: 0.1rem;
   background-color: rgb(255, 255, 255);
   border: none;
@@ -38,7 +39,7 @@
 
 .form__label {
   font-family: "Roboto", sans-serif;
-  font-size: 0.5rem;
+  font-size: 1.2rem;
   margin-left: 2rem;
   margin-top: 0.7rem;
   display: block;
@@ -50,6 +51,7 @@
   font-size: 20px;
   font-weight: 200;
   letter-spacing: 1px;
+  margin-top: 30px;
   padding: 13px 50px 13px;
   outline: 0;
   border: none;
@@ -60,7 +62,7 @@
 }
 .btnContact::after {
   content: "";
-  background-color: #94ff4c;
+  background-color: #6ffc11;
   width: 100%;
   z-index: -1;
   position: absolute;
@@ -73,6 +75,6 @@
 
 .btnContact:hover::after {
   transform: scale(1.1);
-  background-color: rgb(108, 250, 155);
-  border: 0.5px solid rgb(124, 122, 221);
+  background-color: rgb(15, 233, 88);
+  border: 0.5px solid rgb(15, 233, 88);
 }
