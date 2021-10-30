@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import Container from "./components/Container";
-import ContactForm from "./components/ContactForm";
-import ContactList from "./components/ContactList";
-import Filter from "./components/Filter";
+import Container from "./components/Container/Container";
+import ContactForm from "./components/ContactForm/ContactForm";
+import ContactList from "./components/ContactList/ContactList";
+import Filter from "./components/Filter/Filter";
 import shortid from "shortid";
 
 class App extends Component {
