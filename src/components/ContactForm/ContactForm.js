@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 import styles from "./ContactForm.module.css";
 
 class ContactForm extends Component {
@@ -24,6 +25,7 @@ class ContactForm extends Component {
       number: "",
     });
   };
+
   render() {
     const { name, number } = this.state;
     return (
@@ -58,5 +60,9 @@ class ContactForm extends Component {
     );
   }
 }
+
+ContactForm.propTypes = {
+  submit: PropTypes.func.isRequired,
+};
 
 export default ContactForm;
