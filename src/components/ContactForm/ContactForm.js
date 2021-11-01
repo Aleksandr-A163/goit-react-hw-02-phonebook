@@ -8,8 +8,8 @@ class ContactForm extends Component {
     number: "",
   };
 
-  propTypes = {
-    submit: PropTypes.func.isRequired,
+  static propTypes = {
+    onSubmit: PropTypes.func.isRequired,
   };
 
   handleChange = (event) => {
